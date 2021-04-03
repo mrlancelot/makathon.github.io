@@ -1,4 +1,7 @@
-
+@font-face { font-family: Staatliches-Regular; src: url('../fonts/Staatliches-Regular.ttf'); } 
+h2 {
+  font-family: Staatliches-Regular,sans-serif;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -54,4 +57,29 @@ footer.page-footer {
   height: 5px;
   width: 5px;
 }
+.backuses{
+  position: absolute;
+  height: 97vh;
+  width: 66.7vw;
+  background-color: yellow;
+}
+.backborder{
+  border: solid yellow 50px;
+}
 
+.lborder{
+  border-left: solid yellow 50px;
+}
+
+.rborder{
+  border-right: solid yellow 50px;
+}
+
+.fcBlack{
+  color: black;
+  position: relative;
+  border: 5px solid #f1c40f;
+  font-size:x-large;
+  font-family: Staatliches-Regular,sans-serif;
+  text-align: center;
+}
